@@ -5,373 +5,397 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 01, server: 01.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 01.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 02, server: 02.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 02.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 03, server: 03.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 03.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 04, server: 04.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 04.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 05, server: 05.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 05.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 06, server: 06.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 06.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 07, server: 07.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 07.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 08, server: 08.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 08.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 09, server: 09.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 09.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 电信推荐 - 10, server: 10.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 10.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11, server: 11.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 11.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12, server: 12.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 12.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13, server: 13.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14, server: 14.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 14.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15, server: 15.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 15.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16, server: 16.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 16.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17, server: 17.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 17.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18, server: 18.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19, server: 19.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 19.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20, server: 20.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 20.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 电信推荐 - 21, server: 21.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 21.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 电信推荐 - 22, server: 22.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 22.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 电信推荐 - 23, server: 23.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 23.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 电信推荐 - 24, server: 24.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 24.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 电信推荐 - 25, server: 25.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 25.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26, server: 26.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 26.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27, server: 27.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 27.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28, server: 28.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 28.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29, server: 29.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 29.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30, server: 30.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 30.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31, server: 31.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 31.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32, server: 32.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 32.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33, server: 33.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 33.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34, server: 34.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 34.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35, server: 35.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 35.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36, server: 36.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 36.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37, server: 37.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 37.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38, server: 38.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 38.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39, server: 39.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 39.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40, server: 40.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 40.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）, server: 113.31.115.207, port: 10000, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 113.31.115.207}}
+  - {name: 🇭🇰 【福利】HKG/香港 B, server: 52.80.96.133, port: 8000, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: baidu.com}}
+  - {name: 🇭🇰 【福利】HKG/香港 C, server: 52.80.96.133, port: 8001, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: baidu.com}}
+  - {name: 【福利】NRT/东京 A, server: 52.80.96.133, port: 8002, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.96.133}}
+  - {name: 🇸🇬 【福利】SIN/狮城 A, server: 52.80.96.133, port: 8003, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.96.133}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 1, server: 01.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 01.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 2, server: 02.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 02.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 3, server: 03.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 03.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 4, server: 04.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 04.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 5, server: 05.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 05.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 6, server: 06.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 06.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 7, server: 07.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 07.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 8, server: 08.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 08.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 9, server: 09.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 09.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 10, server: 10.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 10.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 B - 1, server: 11.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 11.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 B - 2, server: 12.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 12.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 B - 3, server: 13.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 B - 4, server: 14.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 14.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 B - 5, server: 15.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 15.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 C - 1, server: 16.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 16.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 C - 2, server: 17.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 17.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 C - 3, server: 18.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 C - 4, server: 19.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 19.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 C - 5, server: 20.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 20.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 A - 1, server: 21.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 21.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 A - 2, server: 22.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 22.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 A - 3, server: 23.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 23.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 A - 4, server: 24.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 24.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 A - 5, server: 25.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 25.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 B - 1, server: 26.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 26.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 B - 2, server: 27.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 27.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 B - 3, server: 28.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 28.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 B - 4, server: 29.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 29.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 【直连】NRT/东京 B - 5, server: 30.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 30.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 A - 1, server: 31.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 31.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 A - 2, server: 32.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 32.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 A - 3, server: 33.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 33.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 A - 4, server: 34.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 34.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 A - 5, server: 35.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 35.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 B - 1, server: 36.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 36.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 B - 2, server: 37.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 37.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 B - 3, server: 38.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 38.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 B - 4, server: 39.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 39.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 B - 5, server: 40.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 40.HKG.ASIA.BIGAIRPORT.NET}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 01
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 02
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 03
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 04
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 05
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 06
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 07
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 08
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 09
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 10
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 21
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 22
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 23
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 24
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 25
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40
-      - 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）
+      - 🇭🇰 【福利】HKG/香港 B
+      - 🇭🇰 【福利】HKG/香港 C
+      - 【福利】NRT/东京 A
+      - 🇸🇬 【福利】SIN/狮城 A
+      - 🇭🇰 【直连】HKG/香港 A - 1
+      - 🇭🇰 【直连】HKG/香港 A - 2
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 A - 4
+      - 🇭🇰 【直连】HKG/香港 A - 5
+      - 🇭🇰 【直连】HKG/香港 A - 6
+      - 🇭🇰 【直连】HKG/香港 A - 7
+      - 🇭🇰 【直连】HKG/香港 A - 8
+      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 10
+      - 🇭🇰 【直连】HKG/香港 B - 1
+      - 🇭🇰 【直连】HKG/香港 B - 2
+      - 🇭🇰 【直连】HKG/香港 B - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 5
+      - 🇭🇰 【直连】HKG/香港 C - 1
+      - 🇭🇰 【直连】HKG/香港 C - 2
+      - 🇭🇰 【直连】HKG/香港 C - 3
+      - 🇭🇰 【直连】HKG/香港 C - 4
+      - 🇭🇰 【直连】HKG/香港 C - 5
+      - 【直连】NRT/东京 A - 1
+      - 【直连】NRT/东京 A - 2
+      - 【直连】NRT/东京 A - 3
+      - 【直连】NRT/东京 A - 4
+      - 【直连】NRT/东京 A - 5
+      - 【直连】NRT/东京 B - 1
+      - 【直连】NRT/东京 B - 2
+      - 【直连】NRT/东京 B - 3
+      - 【直连】NRT/东京 B - 4
+      - 【直连】NRT/东京 B - 5
+      - 🇸🇬 【直连】SIN/狮城 A - 1
+      - 🇸🇬 【直连】SIN/狮城 A - 2
+      - 🇸🇬 【直连】SIN/狮城 A - 3
+      - 🇸🇬 【直连】SIN/狮城 A - 4
+      - 🇸🇬 【直连】SIN/狮城 A - 5
+      - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 【直连】SIN/狮城 B - 3
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 01
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 02
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 03
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 04
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 05
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 06
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 07
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 08
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 09
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 10
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 21
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 22
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 23
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 24
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 25
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40
-      - 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）
+      - 🇭🇰 【福利】HKG/香港 B
+      - 🇭🇰 【福利】HKG/香港 C
+      - 【福利】NRT/东京 A
+      - 🇸🇬 【福利】SIN/狮城 A
+      - 🇭🇰 【直连】HKG/香港 A - 1
+      - 🇭🇰 【直连】HKG/香港 A - 2
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 A - 4
+      - 🇭🇰 【直连】HKG/香港 A - 5
+      - 🇭🇰 【直连】HKG/香港 A - 6
+      - 🇭🇰 【直连】HKG/香港 A - 7
+      - 🇭🇰 【直连】HKG/香港 A - 8
+      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 10
+      - 🇭🇰 【直连】HKG/香港 B - 1
+      - 🇭🇰 【直连】HKG/香港 B - 2
+      - 🇭🇰 【直连】HKG/香港 B - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 5
+      - 🇭🇰 【直连】HKG/香港 C - 1
+      - 🇭🇰 【直连】HKG/香港 C - 2
+      - 🇭🇰 【直连】HKG/香港 C - 3
+      - 🇭🇰 【直连】HKG/香港 C - 4
+      - 🇭🇰 【直连】HKG/香港 C - 5
+      - 【直连】NRT/东京 A - 1
+      - 【直连】NRT/东京 A - 2
+      - 【直连】NRT/东京 A - 3
+      - 【直连】NRT/东京 A - 4
+      - 【直连】NRT/东京 A - 5
+      - 【直连】NRT/东京 B - 1
+      - 【直连】NRT/东京 B - 2
+      - 【直连】NRT/东京 B - 3
+      - 【直连】NRT/东京 B - 4
+      - 【直连】NRT/东京 B - 5
+      - 🇸🇬 【直连】SIN/狮城 A - 1
+      - 🇸🇬 【直连】SIN/狮城 A - 2
+      - 🇸🇬 【直连】SIN/狮城 A - 3
+      - 🇸🇬 【直连】SIN/狮城 A - 4
+      - 🇸🇬 【直连】SIN/狮城 A - 5
+      - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 【直连】SIN/狮城 B - 3
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 01
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 02
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 03
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 04
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 05
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 06
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 07
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 08
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 09
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 10
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 21
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 22
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 23
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 24
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 25
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40
-      - 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）
+      - 🇭🇰 【福利】HKG/香港 B
+      - 🇭🇰 【福利】HKG/香港 C
+      - 【福利】NRT/东京 A
+      - 🇸🇬 【福利】SIN/狮城 A
+      - 🇭🇰 【直连】HKG/香港 A - 1
+      - 🇭🇰 【直连】HKG/香港 A - 2
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 A - 4
+      - 🇭🇰 【直连】HKG/香港 A - 5
+      - 🇭🇰 【直连】HKG/香港 A - 6
+      - 🇭🇰 【直连】HKG/香港 A - 7
+      - 🇭🇰 【直连】HKG/香港 A - 8
+      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 10
+      - 🇭🇰 【直连】HKG/香港 B - 1
+      - 🇭🇰 【直连】HKG/香港 B - 2
+      - 🇭🇰 【直连】HKG/香港 B - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 5
+      - 🇭🇰 【直连】HKG/香港 C - 1
+      - 🇭🇰 【直连】HKG/香港 C - 2
+      - 🇭🇰 【直连】HKG/香港 C - 3
+      - 🇭🇰 【直连】HKG/香港 C - 4
+      - 🇭🇰 【直连】HKG/香港 C - 5
+      - 【直连】NRT/东京 A - 1
+      - 【直连】NRT/东京 A - 2
+      - 【直连】NRT/东京 A - 3
+      - 【直连】NRT/东京 A - 4
+      - 【直连】NRT/东京 A - 5
+      - 【直连】NRT/东京 B - 1
+      - 【直连】NRT/东京 B - 2
+      - 【直连】NRT/东京 B - 3
+      - 【直连】NRT/东京 B - 4
+      - 【直连】NRT/东京 B - 5
+      - 🇸🇬 【直连】SIN/狮城 A - 1
+      - 🇸🇬 【直连】SIN/狮城 A - 2
+      - 🇸🇬 【直连】SIN/狮城 A - 3
+      - 🇸🇬 【直连】SIN/狮城 A - 4
+      - 🇸🇬 【直连】SIN/狮城 A - 5
+      - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 【直连】SIN/狮城 B - 3
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 01
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 02
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 03
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 04
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 05
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 06
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 07
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 08
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 09
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 10
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 21
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 22
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 23
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 24
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 25
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40
-      - 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）
+      - 🇭🇰 【福利】HKG/香港 B
+      - 🇭🇰 【福利】HKG/香港 C
+      - 【福利】NRT/东京 A
+      - 🇸🇬 【福利】SIN/狮城 A
+      - 🇭🇰 【直连】HKG/香港 A - 1
+      - 🇭🇰 【直连】HKG/香港 A - 2
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 A - 4
+      - 🇭🇰 【直连】HKG/香港 A - 5
+      - 🇭🇰 【直连】HKG/香港 A - 6
+      - 🇭🇰 【直连】HKG/香港 A - 7
+      - 🇭🇰 【直连】HKG/香港 A - 8
+      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 10
+      - 🇭🇰 【直连】HKG/香港 B - 1
+      - 🇭🇰 【直连】HKG/香港 B - 2
+      - 🇭🇰 【直连】HKG/香港 B - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 5
+      - 🇭🇰 【直连】HKG/香港 C - 1
+      - 🇭🇰 【直连】HKG/香港 C - 2
+      - 🇭🇰 【直连】HKG/香港 C - 3
+      - 🇭🇰 【直连】HKG/香港 C - 4
+      - 🇭🇰 【直连】HKG/香港 C - 5
+      - 【直连】NRT/东京 A - 1
+      - 【直连】NRT/东京 A - 2
+      - 【直连】NRT/东京 A - 3
+      - 【直连】NRT/东京 A - 4
+      - 【直连】NRT/东京 A - 5
+      - 【直连】NRT/东京 B - 1
+      - 【直连】NRT/东京 B - 2
+      - 【直连】NRT/东京 B - 3
+      - 【直连】NRT/东京 B - 4
+      - 【直连】NRT/东京 B - 5
+      - 🇸🇬 【直连】SIN/狮城 A - 1
+      - 🇸🇬 【直连】SIN/狮城 A - 2
+      - 🇸🇬 【直连】SIN/狮城 A - 3
+      - 🇸🇬 【直连】SIN/狮城 A - 4
+      - 🇸🇬 【直连】SIN/狮城 A - 5
+      - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 【直连】SIN/狮城 B - 3
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 01
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 02
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 03
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 04
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 05
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 06
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 07
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 08
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 09
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 10
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 21
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 22
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 23
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 24
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 25
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40
-      - 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）
+      - 🇭🇰 【福利】HKG/香港 B
+      - 🇭🇰 【福利】HKG/香港 C
+      - 【福利】NRT/东京 A
+      - 🇸🇬 【福利】SIN/狮城 A
+      - 🇭🇰 【直连】HKG/香港 A - 1
+      - 🇭🇰 【直连】HKG/香港 A - 2
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 A - 4
+      - 🇭🇰 【直连】HKG/香港 A - 5
+      - 🇭🇰 【直连】HKG/香港 A - 6
+      - 🇭🇰 【直连】HKG/香港 A - 7
+      - 🇭🇰 【直连】HKG/香港 A - 8
+      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 10
+      - 🇭🇰 【直连】HKG/香港 B - 1
+      - 🇭🇰 【直连】HKG/香港 B - 2
+      - 🇭🇰 【直连】HKG/香港 B - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 5
+      - 🇭🇰 【直连】HKG/香港 C - 1
+      - 🇭🇰 【直连】HKG/香港 C - 2
+      - 🇭🇰 【直连】HKG/香港 C - 3
+      - 🇭🇰 【直连】HKG/香港 C - 4
+      - 🇭🇰 【直连】HKG/香港 C - 5
+      - 【直连】NRT/东京 A - 1
+      - 【直连】NRT/东京 A - 2
+      - 【直连】NRT/东京 A - 3
+      - 【直连】NRT/东京 A - 4
+      - 【直连】NRT/东京 A - 5
+      - 【直连】NRT/东京 B - 1
+      - 【直连】NRT/东京 B - 2
+      - 【直连】NRT/东京 B - 3
+      - 【直连】NRT/东京 B - 4
+      - 【直连】NRT/东京 B - 5
+      - 🇸🇬 【直连】SIN/狮城 A - 1
+      - 🇸🇬 【直连】SIN/狮城 A - 2
+      - 🇸🇬 【直连】SIN/狮城 A - 3
+      - 🇸🇬 【直连】SIN/狮城 A - 4
+      - 🇸🇬 【直连】SIN/狮城 A - 5
+      - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 【直连】SIN/狮城 B - 3
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 01
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 02
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 03
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 04
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 05
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 06
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 07
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 08
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 09
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 10
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 21
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 22
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 23
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 24
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 25
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40
-      - 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）
+      - 🇭🇰 【福利】HKG/香港 B
+      - 🇭🇰 【福利】HKG/香港 C
+      - 【福利】NRT/东京 A
+      - 🇸🇬 【福利】SIN/狮城 A
+      - 🇭🇰 【直连】HKG/香港 A - 1
+      - 🇭🇰 【直连】HKG/香港 A - 2
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 A - 4
+      - 🇭🇰 【直连】HKG/香港 A - 5
+      - 🇭🇰 【直连】HKG/香港 A - 6
+      - 🇭🇰 【直连】HKG/香港 A - 7
+      - 🇭🇰 【直连】HKG/香港 A - 8
+      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 10
+      - 🇭🇰 【直连】HKG/香港 B - 1
+      - 🇭🇰 【直连】HKG/香港 B - 2
+      - 🇭🇰 【直连】HKG/香港 B - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 5
+      - 🇭🇰 【直连】HKG/香港 C - 1
+      - 🇭🇰 【直连】HKG/香港 C - 2
+      - 🇭🇰 【直连】HKG/香港 C - 3
+      - 🇭🇰 【直连】HKG/香港 C - 4
+      - 🇭🇰 【直连】HKG/香港 C - 5
+      - 【直连】NRT/东京 A - 1
+      - 【直连】NRT/东京 A - 2
+      - 【直连】NRT/东京 A - 3
+      - 【直连】NRT/东京 A - 4
+      - 【直连】NRT/东京 A - 5
+      - 【直连】NRT/东京 B - 1
+      - 【直连】NRT/东京 B - 2
+      - 【直连】NRT/东京 B - 3
+      - 【直连】NRT/东京 B - 4
+      - 【直连】NRT/东京 B - 5
+      - 🇸🇬 【直连】SIN/狮城 A - 1
+      - 🇸🇬 【直连】SIN/狮城 A - 2
+      - 🇸🇬 【直连】SIN/狮城 A - 3
+      - 🇸🇬 【直连】SIN/狮城 A - 4
+      - 🇸🇬 【直连】SIN/狮城 A - 5
+      - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 【直连】SIN/狮城 B - 3
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 5
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 01
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 02
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 03
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 04
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 05
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 06
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 07
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 08
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 09
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 10
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 21
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 22
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 23
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 24
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 25
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40
-      - 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）
+      - 🇭🇰 【福利】HKG/香港 B
+      - 🇭🇰 【福利】HKG/香港 C
+      - 【福利】NRT/东京 A
+      - 🇸🇬 【福利】SIN/狮城 A
+      - 🇭🇰 【直连】HKG/香港 A - 1
+      - 🇭🇰 【直连】HKG/香港 A - 2
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 A - 4
+      - 🇭🇰 【直连】HKG/香港 A - 5
+      - 🇭🇰 【直连】HKG/香港 A - 6
+      - 🇭🇰 【直连】HKG/香港 A - 7
+      - 🇭🇰 【直连】HKG/香港 A - 8
+      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 10
+      - 🇭🇰 【直连】HKG/香港 B - 1
+      - 🇭🇰 【直连】HKG/香港 B - 2
+      - 🇭🇰 【直连】HKG/香港 B - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 5
+      - 🇭🇰 【直连】HKG/香港 C - 1
+      - 🇭🇰 【直连】HKG/香港 C - 2
+      - 🇭🇰 【直连】HKG/香港 C - 3
+      - 🇭🇰 【直连】HKG/香港 C - 4
+      - 🇭🇰 【直连】HKG/香港 C - 5
+      - 【直连】NRT/东京 A - 1
+      - 【直连】NRT/东京 A - 2
+      - 【直连】NRT/东京 A - 3
+      - 【直连】NRT/东京 A - 4
+      - 【直连】NRT/东京 A - 5
+      - 【直连】NRT/东京 B - 1
+      - 【直连】NRT/东京 B - 2
+      - 【直连】NRT/东京 B - 3
+      - 【直连】NRT/东京 B - 4
+      - 【直连】NRT/东京 B - 5
+      - 🇸🇬 【直连】SIN/狮城 A - 1
+      - 🇸🇬 【直连】SIN/狮城 A - 2
+      - 🇸🇬 【直连】SIN/狮城 A - 3
+      - 🇸🇬 【直连】SIN/狮城 A - 4
+      - 🇸🇬 【直连】SIN/狮城 A - 5
+      - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 【直连】SIN/狮城 B - 3
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -394,47 +418,50 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 01
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 02
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 03
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 04
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 05
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 06
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 07
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 08
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 09
-      - 🇭🇰 【直连】HK/香港 - 电信推荐 - 10
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 11
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 12
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 13
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 14
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 15
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 16
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 17
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 18
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 19
-      - 🇭🇰 【直连】HK/香港 - 联通移动推荐 - 20
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 21
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 22
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 23
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 24
-      - 🇯🇵 【直连】JP/日本 - 电信推荐 - 25
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 26
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 27
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 28
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 29
-      - 🇯🇵 【直连】JP/日本 - 联通移动推荐 - 30
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 31
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 32
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 33
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 34
-      - 🇸🇬 【直连】SG/狮城 - 电信推荐 - 35
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 36
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 37
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 38
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 39
-      - 🇸🇬 【直连】SG/狮城 - 联通移动推荐 - 40
-      - 🇭🇰 【福利中转】HK/香港 - 上海联通 - 41（不确保时效性）
+      - 🇭🇰 【福利】HKG/香港 B
+      - 🇭🇰 【福利】HKG/香港 C
+      - 【福利】NRT/东京 A
+      - 🇸🇬 【福利】SIN/狮城 A
+      - 🇭🇰 【直连】HKG/香港 A - 1
+      - 🇭🇰 【直连】HKG/香港 A - 2
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 A - 4
+      - 🇭🇰 【直连】HKG/香港 A - 5
+      - 🇭🇰 【直连】HKG/香港 A - 6
+      - 🇭🇰 【直连】HKG/香港 A - 7
+      - 🇭🇰 【直连】HKG/香港 A - 8
+      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 10
+      - 🇭🇰 【直连】HKG/香港 B - 1
+      - 🇭🇰 【直连】HKG/香港 B - 2
+      - 🇭🇰 【直连】HKG/香港 B - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 5
+      - 🇭🇰 【直连】HKG/香港 C - 1
+      - 🇭🇰 【直连】HKG/香港 C - 2
+      - 🇭🇰 【直连】HKG/香港 C - 3
+      - 🇭🇰 【直连】HKG/香港 C - 4
+      - 🇭🇰 【直连】HKG/香港 C - 5
+      - 【直连】NRT/东京 A - 1
+      - 【直连】NRT/东京 A - 2
+      - 【直连】NRT/东京 A - 3
+      - 【直连】NRT/东京 A - 4
+      - 【直连】NRT/东京 A - 5
+      - 【直连】NRT/东京 B - 1
+      - 【直连】NRT/东京 B - 2
+      - 【直连】NRT/东京 B - 3
+      - 【直连】NRT/东京 B - 4
+      - 【直连】NRT/东京 B - 5
+      - 🇸🇬 【直连】SIN/狮城 A - 1
+      - 🇸🇬 【直连】SIN/狮城 A - 2
+      - 🇸🇬 【直连】SIN/狮城 A - 3
+      - 🇸🇬 【直连】SIN/狮城 A - 4
+      - 🇸🇬 【直连】SIN/狮城 A - 5
+      - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 【直连】SIN/狮城 B - 3
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -468,6 +495,7 @@ rules:
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
  - DOMAIN,analytics.strava.com,🎯 全球直连
@@ -500,7 +528,6 @@ rules:
  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
  - DOMAIN-KEYWORD,socdm,🛑 全球拦截
  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
- - DOMAIN-KEYWORD,tracking,🛑 全球拦截
  - DOMAIN-KEYWORD,usage,🛑 全球拦截
  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
@@ -2396,7 +2423,6 @@ rules:
  - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
- - DOMAIN-SUFFIX,theplatform.com,🌍 国外媒体
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -2416,6 +2442,7 @@ rules:
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -2425,6 +2452,10 @@ rules:
  - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasialive.akamaized.net,🌍 国外媒体
+ - DOMAIN,hbogoprod-vod.akamaized.net,🌍 国外媒体
+ - DOMAIN,hbolb.onwardsmg.com,🌍 国外媒体
+ - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
  - DOMAIN,players.brightcove.net,🌍 国外媒体
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
@@ -2785,8 +2816,6 @@ rules:
  - DOMAIN-SUFFIX,discord.media,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
- - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.me,🚀 节点选择
@@ -2948,6 +2977,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
+ - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
  - IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
  - IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
@@ -3073,13 +3104,19 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
  - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
  - DOMAIN-SUFFIX,im9.com,🎯 全球直连
+ - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
