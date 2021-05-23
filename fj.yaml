@@ -3,29 +3,23 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台, server: 1.1.1.1, port: 65535, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 1.1.1.1}}
-  - {name: 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台, server: 1.1.1.1, port: 65535, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 1.1.1.1}}
-  - {name: 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video, server: 1.1.1.1, port: 65535, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 1.1.1.1}}
-  - {name: 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer, server: 1.1.1.1, port: 65535, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 1.1.1.1}}
-  - {name: 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking, server: 1.1.1.1, port: 65535, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 1.1.1.1}}
-  - {name: 🇭🇰 【直连】HKG/香港 A, server: 75.2.44.187, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 75.2.44.187}}
-  - {name: 🇭🇰 【直连】HKG/香港 B, server: 52.229.190.119, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.229.190.119}}
+  - {name: 🇭🇰 【福利】HK/香港 B - 上海BGP, server: 40.72.115.55, port: 8000, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 40.72.115.55}}
+  - {name: 🇭🇰 【福利】HK/香港 A - 北京BGP, server: 52.80.96.133, port: 9000, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.96.133}}
+  - {name: 🇸🇬 【福利】SIN/狮城 A - 北京BGP, server: 52.80.96.133, port: 9001, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.80.96.133}}
   - {name: 🇸🇬 【直连】SIN/狮城 A, server: 75.2.115.98, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 75.2.115.98}}
-  - {name: 🇺🇸 【直连】USA/美国, server: 104.149.202.54, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 104.149.202.54}}
+  - {name: 🇺🇲 【直连】USA/美国, server: 104.149.202.54, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 104.149.202.54}}
   - {name: 🇹🇷 【直连】TUR/土耳其, server: 141.98.119.155, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 141.98.119.155}}
-  - {name: 🇨🇳 【直连】TWN/台湾, server: twn01.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: twn01.ip4.ddns.acg.photos}}
-  - {name: 🇭🇰 【中转】HK/香港 A - 东莞电信, server: 119.147.134.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 【中转】HK/香港 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 【中转】HK/香港 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 【中转】HK/香港 A - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 【中转】HK/香港 A - 西安电信, server: 117.34.14.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【直连】TWN/台湾  A, server: twn02.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: twn02.ip4.ddns.acg.photos}}
+  - {name: 🇨🇳 【直连】TWN/台湾 B, server: twn01.ip4.ddns.acg.photos, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: twn01.ip4.ddns.acg.photos}}
+  - {name: 🇭🇰 【中转】HK/香港 A - 天津移动, server: 111.32.136.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 A - 江苏移动, server: 112.25.91.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 东莞电信, server: 119.147.134.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇭🇰 【中转】HK/香港 B - 天津移动, server: 111.32.136.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 江苏移动, server: 112.25.91.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 天津联通, server: 125.39.174.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 河北联通, server: 61.182.136.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
@@ -33,25 +27,24 @@ proxies:
   - {name: 🇭🇰 【中转】HK/香港 B - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇭🇰 【中转】HK/香港 B - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇸🇬 【中转】SIN/狮城 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 【中转】SIN/狮城 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇸🇬 【中转】SIN/狮城 A - 西安电信, server: 117.34.14.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 【中转】SIN/狮城 A - 天津移动, server: 111.32.136.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇸🇬 【中转】SIN/狮城 A - 江苏移动, server: 112.25.91.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 【中转】SIN/狮城 A - 河北联通, server: 61.182.136.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇸🇬 【中转】SIN/狮城 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 【中转】SIN/狮城 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 【中转】SIN/狮城 A - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇯🇵 【中转】JPN/日本 A - 东莞电信, server: 119.147.134.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇯🇵 【中转】JPN/日本 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇯🇵 【中转】JPN/日本 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇯🇵 【中转】JPN/日本 A - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇯🇵 【中转】JPN/日本 A - 西安电信, server: 117.34.14.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇯🇵 【中转】JPN/日本 A - 江苏移动, server: 112.25.91.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 【中转】USA/美国 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 【中转】USA/美国 A - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 【中转】USA/美国 A - 天津联通, server: 125.39.174.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 【中转】USA/美国 A - 河北联通, server: 61.182.136.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 【中转】USA/美国 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 【中转】USA/美国 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 【中转】USA/美国 A - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇲 【中转】USA/美国 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇲 【中转】USA/美国 A - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇲 【中转】USA/美国 A - 天津联通, server: 125.39.174.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇲 【中转】USA/美国 A - 河北联通, server: 61.182.136.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇲 【中转】USA/美国 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇲 【中转】USA/美国 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇲 【中转】USA/美国 A - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇨🇳 【中转】TWN/台湾 A - 东莞电信, server: 119.147.134.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇨🇳 【中转】TWN/台湾 A - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇨🇳 【中转】TWN/台湾 A - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
@@ -62,33 +55,37 @@ proxies:
   - {name: 🇨🇳 【中转】TWN/台湾 A - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇨🇳 【中转】TWN/台湾 A - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇨🇳 【中转】TWN/台湾 A - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 东莞电信, server: 119.147.134.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 天津电信, server: 42.81.8.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 宁波电信, server: 115.231.187.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 苏州电信, server: 58.211.137.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 江苏移动, server: 112.25.91.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 天津联通, server: 125.39.174.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 河北联通, server: 61.182.136.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 济南联通, server: 119.188.97.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 郑州联通, server: 42.236.94.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇨🇳 【中转】TWN/台湾 B - 重庆联通, server: 113.207.102.1, port: 80, type: vmess, uuid: 4a9bf1fd-45f3-45b7-9399-0eea1f511226, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.cdn.8x.cx.hit.edu.cn}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video
-      - 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer
-      - 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking
-      - 🇭🇰 【直连】HKG/香港 A
-      - 🇭🇰 【直连】HKG/香港 B
+      - 🇭🇰 【福利】HK/香港 B - 上海BGP
+      - 🇭🇰 【福利】HK/香港 A - 北京BGP
+      - 🇸🇬 【福利】SIN/狮城 A - 北京BGP
       - 🇸🇬 【直连】SIN/狮城 A
-      - 🇺🇸 【直连】USA/美国
+      - 🇺🇲 【直连】USA/美国
       - 🇹🇷 【直连】TUR/土耳其
-      - 🇨🇳 【直连】TWN/台湾
-      - 🇭🇰 【中转】HK/香港 A - 东莞电信
-      - 🇭🇰 【中转】HK/香港 A - 天津电信
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 A - 苏州电信
-      - 🇭🇰 【中转】HK/香港 A - 西安电信
+      - 🇨🇳 【直连】TWN/台湾  A
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇭🇰 【中转】HK/香港 A - 天津移动
       - 🇭🇰 【中转】HK/香港 A - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 东莞电信
       - 🇭🇰 【中转】HK/香港 B - 天津电信
       - 🇭🇰 【中转】HK/香港 B - 宁波电信
       - 🇭🇰 【中转】HK/香港 B - 苏州电信
+      - 🇭🇰 【中转】HK/香港 B - 天津移动
       - 🇭🇰 【中转】HK/香港 B - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 天津联通
       - 🇭🇰 【中转】HK/香港 B - 河北联通
@@ -96,25 +93,24 @@ proxy-groups:
       - 🇭🇰 【中转】HK/香港 B - 郑州联通
       - 🇭🇰 【中转】HK/香港 B - 重庆联通
       - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
       - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇸🇬 【中转】SIN/狮城 A - 天津移动
       - 🇸🇬 【中转】SIN/狮城 A - 江苏移动
-      - 🇸🇬 【中转】SIN/狮城 A - 河北联通
       - 🇸🇬 【中转】SIN/狮城 A - 济南联通
-      - 🇸🇬 【中转】SIN/狮城 A - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 重庆联通
       - 🇯🇵 【中转】JPN/日本 A - 东莞电信
       - 🇯🇵 【中转】JPN/日本 A - 天津电信
       - 🇯🇵 【中转】JPN/日本 A - 宁波电信
       - 🇯🇵 【中转】JPN/日本 A - 苏州电信
       - 🇯🇵 【中转】JPN/日本 A - 西安电信
       - 🇯🇵 【中转】JPN/日本 A - 江苏移动
-      - 🇺🇸 【中转】USA/美国 A - 宁波电信
-      - 🇺🇸 【中转】USA/美国 A - 苏州电信
-      - 🇺🇸 【中转】USA/美国 A - 天津联通
-      - 🇺🇸 【中转】USA/美国 A - 河北联通
-      - 🇺🇸 【中转】USA/美国 A - 济南联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇺🇸 【中转】USA/美国 A - 重庆联通
+      - 🇺🇲 【中转】USA/美国 A - 宁波电信
+      - 🇺🇲 【中转】USA/美国 A - 苏州电信
+      - 🇺🇲 【中转】USA/美国 A - 天津联通
+      - 🇺🇲 【中转】USA/美国 A - 河北联通
+      - 🇺🇲 【中转】USA/美国 A - 济南联通
+      - 🇺🇲 【中转】USA/美国 A - 郑州联通
+      - 🇺🇲 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【中转】TWN/台湾 A - 东莞电信
       - 🇨🇳 【中转】TWN/台湾 A - 天津电信
       - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
@@ -125,33 +121,37 @@ proxy-groups:
       - 🇨🇳 【中转】TWN/台湾 A - 济南联通
       - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
       - 🇨🇳 【中转】TWN/台湾 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 B - 东莞电信
+      - 🇨🇳 【中转】TWN/台湾 B - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 苏州电信
+      - 🇨🇳 【中转】TWN/台湾 B - 江苏移动
+      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
+      - 🇨🇳 【中转】TWN/台湾 B - 河北联通
+      - 🇨🇳 【中转】TWN/台湾 B - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video
-      - 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer
-      - 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking
-      - 🇭🇰 【直连】HKG/香港 A
-      - 🇭🇰 【直连】HKG/香港 B
+      - 🇭🇰 【福利】HK/香港 B - 上海BGP
+      - 🇭🇰 【福利】HK/香港 A - 北京BGP
+      - 🇸🇬 【福利】SIN/狮城 A - 北京BGP
       - 🇸🇬 【直连】SIN/狮城 A
-      - 🇺🇸 【直连】USA/美国
+      - 🇺🇲 【直连】USA/美国
       - 🇹🇷 【直连】TUR/土耳其
-      - 🇨🇳 【直连】TWN/台湾
-      - 🇭🇰 【中转】HK/香港 A - 东莞电信
-      - 🇭🇰 【中转】HK/香港 A - 天津电信
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 A - 苏州电信
-      - 🇭🇰 【中转】HK/香港 A - 西安电信
+      - 🇨🇳 【直连】TWN/台湾  A
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇭🇰 【中转】HK/香港 A - 天津移动
       - 🇭🇰 【中转】HK/香港 A - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 东莞电信
       - 🇭🇰 【中转】HK/香港 B - 天津电信
       - 🇭🇰 【中转】HK/香港 B - 宁波电信
       - 🇭🇰 【中转】HK/香港 B - 苏州电信
+      - 🇭🇰 【中转】HK/香港 B - 天津移动
       - 🇭🇰 【中转】HK/香港 B - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 天津联通
       - 🇭🇰 【中转】HK/香港 B - 河北联通
@@ -159,25 +159,24 @@ proxy-groups:
       - 🇭🇰 【中转】HK/香港 B - 郑州联通
       - 🇭🇰 【中转】HK/香港 B - 重庆联通
       - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
       - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇸🇬 【中转】SIN/狮城 A - 天津移动
       - 🇸🇬 【中转】SIN/狮城 A - 江苏移动
-      - 🇸🇬 【中转】SIN/狮城 A - 河北联通
       - 🇸🇬 【中转】SIN/狮城 A - 济南联通
-      - 🇸🇬 【中转】SIN/狮城 A - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 重庆联通
       - 🇯🇵 【中转】JPN/日本 A - 东莞电信
       - 🇯🇵 【中转】JPN/日本 A - 天津电信
       - 🇯🇵 【中转】JPN/日本 A - 宁波电信
       - 🇯🇵 【中转】JPN/日本 A - 苏州电信
       - 🇯🇵 【中转】JPN/日本 A - 西安电信
       - 🇯🇵 【中转】JPN/日本 A - 江苏移动
-      - 🇺🇸 【中转】USA/美国 A - 宁波电信
-      - 🇺🇸 【中转】USA/美国 A - 苏州电信
-      - 🇺🇸 【中转】USA/美国 A - 天津联通
-      - 🇺🇸 【中转】USA/美国 A - 河北联通
-      - 🇺🇸 【中转】USA/美国 A - 济南联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇺🇸 【中转】USA/美国 A - 重庆联通
+      - 🇺🇲 【中转】USA/美国 A - 宁波电信
+      - 🇺🇲 【中转】USA/美国 A - 苏州电信
+      - 🇺🇲 【中转】USA/美国 A - 天津联通
+      - 🇺🇲 【中转】USA/美国 A - 河北联通
+      - 🇺🇲 【中转】USA/美国 A - 济南联通
+      - 🇺🇲 【中转】USA/美国 A - 郑州联通
+      - 🇺🇲 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【中转】TWN/台湾 A - 东莞电信
       - 🇨🇳 【中转】TWN/台湾 A - 天津电信
       - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
@@ -188,33 +187,37 @@ proxy-groups:
       - 🇨🇳 【中转】TWN/台湾 A - 济南联通
       - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
       - 🇨🇳 【中转】TWN/台湾 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 B - 东莞电信
+      - 🇨🇳 【中转】TWN/台湾 B - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 苏州电信
+      - 🇨🇳 【中转】TWN/台湾 B - 江苏移动
+      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
+      - 🇨🇳 【中转】TWN/台湾 B - 河北联通
+      - 🇨🇳 【中转】TWN/台湾 B - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video
-      - 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer
-      - 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking
-      - 🇭🇰 【直连】HKG/香港 A
-      - 🇭🇰 【直连】HKG/香港 B
+      - 🇭🇰 【福利】HK/香港 B - 上海BGP
+      - 🇭🇰 【福利】HK/香港 A - 北京BGP
+      - 🇸🇬 【福利】SIN/狮城 A - 北京BGP
       - 🇸🇬 【直连】SIN/狮城 A
-      - 🇺🇸 【直连】USA/美国
+      - 🇺🇲 【直连】USA/美国
       - 🇹🇷 【直连】TUR/土耳其
-      - 🇨🇳 【直连】TWN/台湾
-      - 🇭🇰 【中转】HK/香港 A - 东莞电信
-      - 🇭🇰 【中转】HK/香港 A - 天津电信
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 A - 苏州电信
-      - 🇭🇰 【中转】HK/香港 A - 西安电信
+      - 🇨🇳 【直连】TWN/台湾  A
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇭🇰 【中转】HK/香港 A - 天津移动
       - 🇭🇰 【中转】HK/香港 A - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 东莞电信
       - 🇭🇰 【中转】HK/香港 B - 天津电信
       - 🇭🇰 【中转】HK/香港 B - 宁波电信
       - 🇭🇰 【中转】HK/香港 B - 苏州电信
+      - 🇭🇰 【中转】HK/香港 B - 天津移动
       - 🇭🇰 【中转】HK/香港 B - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 天津联通
       - 🇭🇰 【中转】HK/香港 B - 河北联通
@@ -222,25 +225,24 @@ proxy-groups:
       - 🇭🇰 【中转】HK/香港 B - 郑州联通
       - 🇭🇰 【中转】HK/香港 B - 重庆联通
       - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
       - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇸🇬 【中转】SIN/狮城 A - 天津移动
       - 🇸🇬 【中转】SIN/狮城 A - 江苏移动
-      - 🇸🇬 【中转】SIN/狮城 A - 河北联通
       - 🇸🇬 【中转】SIN/狮城 A - 济南联通
-      - 🇸🇬 【中转】SIN/狮城 A - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 重庆联通
       - 🇯🇵 【中转】JPN/日本 A - 东莞电信
       - 🇯🇵 【中转】JPN/日本 A - 天津电信
       - 🇯🇵 【中转】JPN/日本 A - 宁波电信
       - 🇯🇵 【中转】JPN/日本 A - 苏州电信
       - 🇯🇵 【中转】JPN/日本 A - 西安电信
       - 🇯🇵 【中转】JPN/日本 A - 江苏移动
-      - 🇺🇸 【中转】USA/美国 A - 宁波电信
-      - 🇺🇸 【中转】USA/美国 A - 苏州电信
-      - 🇺🇸 【中转】USA/美国 A - 天津联通
-      - 🇺🇸 【中转】USA/美国 A - 河北联通
-      - 🇺🇸 【中转】USA/美国 A - 济南联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇺🇸 【中转】USA/美国 A - 重庆联通
+      - 🇺🇲 【中转】USA/美国 A - 宁波电信
+      - 🇺🇲 【中转】USA/美国 A - 苏州电信
+      - 🇺🇲 【中转】USA/美国 A - 天津联通
+      - 🇺🇲 【中转】USA/美国 A - 河北联通
+      - 🇺🇲 【中转】USA/美国 A - 济南联通
+      - 🇺🇲 【中转】USA/美国 A - 郑州联通
+      - 🇺🇲 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【中转】TWN/台湾 A - 东莞电信
       - 🇨🇳 【中转】TWN/台湾 A - 天津电信
       - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
@@ -251,32 +253,36 @@ proxy-groups:
       - 🇨🇳 【中转】TWN/台湾 A - 济南联通
       - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
       - 🇨🇳 【中转】TWN/台湾 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 B - 东莞电信
+      - 🇨🇳 【中转】TWN/台湾 B - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 苏州电信
+      - 🇨🇳 【中转】TWN/台湾 B - 江苏移动
+      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
+      - 🇨🇳 【中转】TWN/台湾 B - 河北联通
+      - 🇨🇳 【中转】TWN/台湾 B - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video
-      - 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer
-      - 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking
-      - 🇭🇰 【直连】HKG/香港 A
-      - 🇭🇰 【直连】HKG/香港 B
+      - 🇭🇰 【福利】HK/香港 B - 上海BGP
+      - 🇭🇰 【福利】HK/香港 A - 北京BGP
+      - 🇸🇬 【福利】SIN/狮城 A - 北京BGP
       - 🇸🇬 【直连】SIN/狮城 A
-      - 🇺🇸 【直连】USA/美国
+      - 🇺🇲 【直连】USA/美国
       - 🇹🇷 【直连】TUR/土耳其
-      - 🇨🇳 【直连】TWN/台湾
-      - 🇭🇰 【中转】HK/香港 A - 东莞电信
-      - 🇭🇰 【中转】HK/香港 A - 天津电信
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 A - 苏州电信
-      - 🇭🇰 【中转】HK/香港 A - 西安电信
+      - 🇨🇳 【直连】TWN/台湾  A
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇭🇰 【中转】HK/香港 A - 天津移动
       - 🇭🇰 【中转】HK/香港 A - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 东莞电信
       - 🇭🇰 【中转】HK/香港 B - 天津电信
       - 🇭🇰 【中转】HK/香港 B - 宁波电信
       - 🇭🇰 【中转】HK/香港 B - 苏州电信
+      - 🇭🇰 【中转】HK/香港 B - 天津移动
       - 🇭🇰 【中转】HK/香港 B - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 天津联通
       - 🇭🇰 【中转】HK/香港 B - 河北联通
@@ -284,25 +290,24 @@ proxy-groups:
       - 🇭🇰 【中转】HK/香港 B - 郑州联通
       - 🇭🇰 【中转】HK/香港 B - 重庆联通
       - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
       - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇸🇬 【中转】SIN/狮城 A - 天津移动
       - 🇸🇬 【中转】SIN/狮城 A - 江苏移动
-      - 🇸🇬 【中转】SIN/狮城 A - 河北联通
       - 🇸🇬 【中转】SIN/狮城 A - 济南联通
-      - 🇸🇬 【中转】SIN/狮城 A - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 重庆联通
       - 🇯🇵 【中转】JPN/日本 A - 东莞电信
       - 🇯🇵 【中转】JPN/日本 A - 天津电信
       - 🇯🇵 【中转】JPN/日本 A - 宁波电信
       - 🇯🇵 【中转】JPN/日本 A - 苏州电信
       - 🇯🇵 【中转】JPN/日本 A - 西安电信
       - 🇯🇵 【中转】JPN/日本 A - 江苏移动
-      - 🇺🇸 【中转】USA/美国 A - 宁波电信
-      - 🇺🇸 【中转】USA/美国 A - 苏州电信
-      - 🇺🇸 【中转】USA/美国 A - 天津联通
-      - 🇺🇸 【中转】USA/美国 A - 河北联通
-      - 🇺🇸 【中转】USA/美国 A - 济南联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇺🇸 【中转】USA/美国 A - 重庆联通
+      - 🇺🇲 【中转】USA/美国 A - 宁波电信
+      - 🇺🇲 【中转】USA/美国 A - 苏州电信
+      - 🇺🇲 【中转】USA/美国 A - 天津联通
+      - 🇺🇲 【中转】USA/美国 A - 河北联通
+      - 🇺🇲 【中转】USA/美国 A - 济南联通
+      - 🇺🇲 【中转】USA/美国 A - 郑州联通
+      - 🇺🇲 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【中转】TWN/台湾 A - 东莞电信
       - 🇨🇳 【中转】TWN/台湾 A - 天津电信
       - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
@@ -313,32 +318,36 @@ proxy-groups:
       - 🇨🇳 【中转】TWN/台湾 A - 济南联通
       - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
       - 🇨🇳 【中转】TWN/台湾 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 B - 东莞电信
+      - 🇨🇳 【中转】TWN/台湾 B - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 苏州电信
+      - 🇨🇳 【中转】TWN/台湾 B - 江苏移动
+      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
+      - 🇨🇳 【中转】TWN/台湾 B - 河北联通
+      - 🇨🇳 【中转】TWN/台湾 B - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video
-      - 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer
-      - 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking
-      - 🇭🇰 【直连】HKG/香港 A
-      - 🇭🇰 【直连】HKG/香港 B
+      - 🇭🇰 【福利】HK/香港 B - 上海BGP
+      - 🇭🇰 【福利】HK/香港 A - 北京BGP
+      - 🇸🇬 【福利】SIN/狮城 A - 北京BGP
       - 🇸🇬 【直连】SIN/狮城 A
-      - 🇺🇸 【直连】USA/美国
+      - 🇺🇲 【直连】USA/美国
       - 🇹🇷 【直连】TUR/土耳其
-      - 🇨🇳 【直连】TWN/台湾
-      - 🇭🇰 【中转】HK/香港 A - 东莞电信
-      - 🇭🇰 【中转】HK/香港 A - 天津电信
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 A - 苏州电信
-      - 🇭🇰 【中转】HK/香港 A - 西安电信
+      - 🇨🇳 【直连】TWN/台湾  A
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇭🇰 【中转】HK/香港 A - 天津移动
       - 🇭🇰 【中转】HK/香港 A - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 东莞电信
       - 🇭🇰 【中转】HK/香港 B - 天津电信
       - 🇭🇰 【中转】HK/香港 B - 宁波电信
       - 🇭🇰 【中转】HK/香港 B - 苏州电信
+      - 🇭🇰 【中转】HK/香港 B - 天津移动
       - 🇭🇰 【中转】HK/香港 B - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 天津联通
       - 🇭🇰 【中转】HK/香港 B - 河北联通
@@ -346,25 +355,24 @@ proxy-groups:
       - 🇭🇰 【中转】HK/香港 B - 郑州联通
       - 🇭🇰 【中转】HK/香港 B - 重庆联通
       - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
       - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇸🇬 【中转】SIN/狮城 A - 天津移动
       - 🇸🇬 【中转】SIN/狮城 A - 江苏移动
-      - 🇸🇬 【中转】SIN/狮城 A - 河北联通
       - 🇸🇬 【中转】SIN/狮城 A - 济南联通
-      - 🇸🇬 【中转】SIN/狮城 A - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 重庆联通
       - 🇯🇵 【中转】JPN/日本 A - 东莞电信
       - 🇯🇵 【中转】JPN/日本 A - 天津电信
       - 🇯🇵 【中转】JPN/日本 A - 宁波电信
       - 🇯🇵 【中转】JPN/日本 A - 苏州电信
       - 🇯🇵 【中转】JPN/日本 A - 西安电信
       - 🇯🇵 【中转】JPN/日本 A - 江苏移动
-      - 🇺🇸 【中转】USA/美国 A - 宁波电信
-      - 🇺🇸 【中转】USA/美国 A - 苏州电信
-      - 🇺🇸 【中转】USA/美国 A - 天津联通
-      - 🇺🇸 【中转】USA/美国 A - 河北联通
-      - 🇺🇸 【中转】USA/美国 A - 济南联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇺🇸 【中转】USA/美国 A - 重庆联通
+      - 🇺🇲 【中转】USA/美国 A - 宁波电信
+      - 🇺🇲 【中转】USA/美国 A - 苏州电信
+      - 🇺🇲 【中转】USA/美国 A - 天津联通
+      - 🇺🇲 【中转】USA/美国 A - 河北联通
+      - 🇺🇲 【中转】USA/美国 A - 济南联通
+      - 🇺🇲 【中转】USA/美国 A - 郑州联通
+      - 🇺🇲 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【中转】TWN/台湾 A - 东莞电信
       - 🇨🇳 【中转】TWN/台湾 A - 天津电信
       - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
@@ -375,32 +383,36 @@ proxy-groups:
       - 🇨🇳 【中转】TWN/台湾 A - 济南联通
       - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
       - 🇨🇳 【中转】TWN/台湾 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 B - 东莞电信
+      - 🇨🇳 【中转】TWN/台湾 B - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 苏州电信
+      - 🇨🇳 【中转】TWN/台湾 B - 江苏移动
+      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
+      - 🇨🇳 【中转】TWN/台湾 B - 河北联通
+      - 🇨🇳 【中转】TWN/台湾 B - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video
-      - 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer
-      - 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking
-      - 🇭🇰 【直连】HKG/香港 A
-      - 🇭🇰 【直连】HKG/香港 B
+      - 🇭🇰 【福利】HK/香港 B - 上海BGP
+      - 🇭🇰 【福利】HK/香港 A - 北京BGP
+      - 🇸🇬 【福利】SIN/狮城 A - 北京BGP
       - 🇸🇬 【直连】SIN/狮城 A
-      - 🇺🇸 【直连】USA/美国
+      - 🇺🇲 【直连】USA/美国
       - 🇹🇷 【直连】TUR/土耳其
-      - 🇨🇳 【直连】TWN/台湾
-      - 🇭🇰 【中转】HK/香港 A - 东莞电信
-      - 🇭🇰 【中转】HK/香港 A - 天津电信
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 A - 苏州电信
-      - 🇭🇰 【中转】HK/香港 A - 西安电信
+      - 🇨🇳 【直连】TWN/台湾  A
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇭🇰 【中转】HK/香港 A - 天津移动
       - 🇭🇰 【中转】HK/香港 A - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 东莞电信
       - 🇭🇰 【中转】HK/香港 B - 天津电信
       - 🇭🇰 【中转】HK/香港 B - 宁波电信
       - 🇭🇰 【中转】HK/香港 B - 苏州电信
+      - 🇭🇰 【中转】HK/香港 B - 天津移动
       - 🇭🇰 【中转】HK/香港 B - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 天津联通
       - 🇭🇰 【中转】HK/香港 B - 河北联通
@@ -408,25 +420,24 @@ proxy-groups:
       - 🇭🇰 【中转】HK/香港 B - 郑州联通
       - 🇭🇰 【中转】HK/香港 B - 重庆联通
       - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
       - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇸🇬 【中转】SIN/狮城 A - 天津移动
       - 🇸🇬 【中转】SIN/狮城 A - 江苏移动
-      - 🇸🇬 【中转】SIN/狮城 A - 河北联通
       - 🇸🇬 【中转】SIN/狮城 A - 济南联通
-      - 🇸🇬 【中转】SIN/狮城 A - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 重庆联通
       - 🇯🇵 【中转】JPN/日本 A - 东莞电信
       - 🇯🇵 【中转】JPN/日本 A - 天津电信
       - 🇯🇵 【中转】JPN/日本 A - 宁波电信
       - 🇯🇵 【中转】JPN/日本 A - 苏州电信
       - 🇯🇵 【中转】JPN/日本 A - 西安电信
       - 🇯🇵 【中转】JPN/日本 A - 江苏移动
-      - 🇺🇸 【中转】USA/美国 A - 宁波电信
-      - 🇺🇸 【中转】USA/美国 A - 苏州电信
-      - 🇺🇸 【中转】USA/美国 A - 天津联通
-      - 🇺🇸 【中转】USA/美国 A - 河北联通
-      - 🇺🇸 【中转】USA/美国 A - 济南联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇺🇸 【中转】USA/美国 A - 重庆联通
+      - 🇺🇲 【中转】USA/美国 A - 宁波电信
+      - 🇺🇲 【中转】USA/美国 A - 苏州电信
+      - 🇺🇲 【中转】USA/美国 A - 天津联通
+      - 🇺🇲 【中转】USA/美国 A - 河北联通
+      - 🇺🇲 【中转】USA/美国 A - 济南联通
+      - 🇺🇲 【中转】USA/美国 A - 郑州联通
+      - 🇺🇲 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【中转】TWN/台湾 A - 东莞电信
       - 🇨🇳 【中转】TWN/台湾 A - 天津电信
       - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
@@ -437,33 +448,37 @@ proxy-groups:
       - 🇨🇳 【中转】TWN/台湾 A - 济南联通
       - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
       - 🇨🇳 【中转】TWN/台湾 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 B - 东莞电信
+      - 🇨🇳 【中转】TWN/台湾 B - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 苏州电信
+      - 🇨🇳 【中转】TWN/台湾 B - 江苏移动
+      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
+      - 🇨🇳 【中转】TWN/台湾 B - 河北联通
+      - 🇨🇳 【中转】TWN/台湾 B - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video
-      - 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer
-      - 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking
-      - 🇭🇰 【直连】HKG/香港 A
-      - 🇭🇰 【直连】HKG/香港 B
+      - 🇭🇰 【福利】HK/香港 B - 上海BGP
+      - 🇭🇰 【福利】HK/香港 A - 北京BGP
+      - 🇸🇬 【福利】SIN/狮城 A - 北京BGP
       - 🇸🇬 【直连】SIN/狮城 A
-      - 🇺🇸 【直连】USA/美国
+      - 🇺🇲 【直连】USA/美国
       - 🇹🇷 【直连】TUR/土耳其
-      - 🇨🇳 【直连】TWN/台湾
-      - 🇭🇰 【中转】HK/香港 A - 东莞电信
-      - 🇭🇰 【中转】HK/香港 A - 天津电信
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 A - 苏州电信
-      - 🇭🇰 【中转】HK/香港 A - 西安电信
+      - 🇨🇳 【直连】TWN/台湾  A
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇭🇰 【中转】HK/香港 A - 天津移动
       - 🇭🇰 【中转】HK/香港 A - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 东莞电信
       - 🇭🇰 【中转】HK/香港 B - 天津电信
       - 🇭🇰 【中转】HK/香港 B - 宁波电信
       - 🇭🇰 【中转】HK/香港 B - 苏州电信
+      - 🇭🇰 【中转】HK/香港 B - 天津移动
       - 🇭🇰 【中转】HK/香港 B - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 天津联通
       - 🇭🇰 【中转】HK/香港 B - 河北联通
@@ -471,25 +486,24 @@ proxy-groups:
       - 🇭🇰 【中转】HK/香港 B - 郑州联通
       - 🇭🇰 【中转】HK/香港 B - 重庆联通
       - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
       - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇸🇬 【中转】SIN/狮城 A - 天津移动
       - 🇸🇬 【中转】SIN/狮城 A - 江苏移动
-      - 🇸🇬 【中转】SIN/狮城 A - 河北联通
       - 🇸🇬 【中转】SIN/狮城 A - 济南联通
-      - 🇸🇬 【中转】SIN/狮城 A - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 重庆联通
       - 🇯🇵 【中转】JPN/日本 A - 东莞电信
       - 🇯🇵 【中转】JPN/日本 A - 天津电信
       - 🇯🇵 【中转】JPN/日本 A - 宁波电信
       - 🇯🇵 【中转】JPN/日本 A - 苏州电信
       - 🇯🇵 【中转】JPN/日本 A - 西安电信
       - 🇯🇵 【中转】JPN/日本 A - 江苏移动
-      - 🇺🇸 【中转】USA/美国 A - 宁波电信
-      - 🇺🇸 【中转】USA/美国 A - 苏州电信
-      - 🇺🇸 【中转】USA/美国 A - 天津联通
-      - 🇺🇸 【中转】USA/美国 A - 河北联通
-      - 🇺🇸 【中转】USA/美国 A - 济南联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇺🇸 【中转】USA/美国 A - 重庆联通
+      - 🇺🇲 【中转】USA/美国 A - 宁波电信
+      - 🇺🇲 【中转】USA/美国 A - 苏州电信
+      - 🇺🇲 【中转】USA/美国 A - 天津联通
+      - 🇺🇲 【中转】USA/美国 A - 河北联通
+      - 🇺🇲 【中转】USA/美国 A - 济南联通
+      - 🇺🇲 【中转】USA/美国 A - 郑州联通
+      - 🇺🇲 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【中转】TWN/台湾 A - 东莞电信
       - 🇨🇳 【中转】TWN/台湾 A - 天津电信
       - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
@@ -500,6 +514,16 @@ proxy-groups:
       - 🇨🇳 【中转】TWN/台湾 A - 济南联通
       - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
       - 🇨🇳 【中转】TWN/台湾 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 B - 东莞电信
+      - 🇨🇳 【中转】TWN/台湾 B - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 苏州电信
+      - 🇨🇳 【中转】TWN/台湾 B - 江苏移动
+      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
+      - 🇨🇳 【中转】TWN/台湾 B - 河北联通
+      - 🇨🇳 【中转】TWN/台湾 B - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -522,27 +546,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 A 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇭🇰 香港 B 解锁：Netflix TVB HBOGo Viu NowE Bilibili港澳台
-      - 🇸🇬 狮城 A 解锁：Netflix SGDisney+ Fox+ Amazon Video
-      - 🇯🇵 日本 A 解锁：Niconico动画 Abema DMM DAZN Hulu TVer
-      - 🇨🇳 台湾 解锁：Netflix Bahamut KKBOX&KKTV LiTV LINETV 四季线上 Skyking
-      - 🇭🇰 【直连】HKG/香港 A
-      - 🇭🇰 【直连】HKG/香港 B
+      - 🇭🇰 【福利】HK/香港 B - 上海BGP
+      - 🇭🇰 【福利】HK/香港 A - 北京BGP
+      - 🇸🇬 【福利】SIN/狮城 A - 北京BGP
       - 🇸🇬 【直连】SIN/狮城 A
-      - 🇺🇸 【直连】USA/美国
+      - 🇺🇲 【直连】USA/美国
       - 🇹🇷 【直连】TUR/土耳其
-      - 🇨🇳 【直连】TWN/台湾
-      - 🇭🇰 【中转】HK/香港 A - 东莞电信
-      - 🇭🇰 【中转】HK/香港 A - 天津电信
-      - 🇭🇰 【中转】HK/香港 A - 宁波电信
-      - 🇭🇰 【中转】HK/香港 A - 苏州电信
-      - 🇭🇰 【中转】HK/香港 A - 西安电信
+      - 🇨🇳 【直连】TWN/台湾  A
+      - 🇨🇳 【直连】TWN/台湾 B
+      - 🇭🇰 【中转】HK/香港 A - 天津移动
       - 🇭🇰 【中转】HK/香港 A - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 东莞电信
       - 🇭🇰 【中转】HK/香港 B - 天津电信
       - 🇭🇰 【中转】HK/香港 B - 宁波电信
       - 🇭🇰 【中转】HK/香港 B - 苏州电信
+      - 🇭🇰 【中转】HK/香港 B - 天津移动
       - 🇭🇰 【中转】HK/香港 B - 江苏移动
       - 🇭🇰 【中转】HK/香港 B - 天津联通
       - 🇭🇰 【中转】HK/香港 B - 河北联通
@@ -550,25 +568,24 @@ proxy-groups:
       - 🇭🇰 【中转】HK/香港 B - 郑州联通
       - 🇭🇰 【中转】HK/香港 B - 重庆联通
       - 🇸🇬 【中转】SIN/狮城 A - 天津电信
+      - 🇸🇬 【中转】SIN/狮城 A - 宁波电信
       - 🇸🇬 【中转】SIN/狮城 A - 西安电信
+      - 🇸🇬 【中转】SIN/狮城 A - 天津移动
       - 🇸🇬 【中转】SIN/狮城 A - 江苏移动
-      - 🇸🇬 【中转】SIN/狮城 A - 河北联通
       - 🇸🇬 【中转】SIN/狮城 A - 济南联通
-      - 🇸🇬 【中转】SIN/狮城 A - 郑州联通
-      - 🇸🇬 【中转】SIN/狮城 A - 重庆联通
       - 🇯🇵 【中转】JPN/日本 A - 东莞电信
       - 🇯🇵 【中转】JPN/日本 A - 天津电信
       - 🇯🇵 【中转】JPN/日本 A - 宁波电信
       - 🇯🇵 【中转】JPN/日本 A - 苏州电信
       - 🇯🇵 【中转】JPN/日本 A - 西安电信
       - 🇯🇵 【中转】JPN/日本 A - 江苏移动
-      - 🇺🇸 【中转】USA/美国 A - 宁波电信
-      - 🇺🇸 【中转】USA/美国 A - 苏州电信
-      - 🇺🇸 【中转】USA/美国 A - 天津联通
-      - 🇺🇸 【中转】USA/美国 A - 河北联通
-      - 🇺🇸 【中转】USA/美国 A - 济南联通
-      - 🇺🇸 【中转】USA/美国 A - 郑州联通
-      - 🇺🇸 【中转】USA/美国 A - 重庆联通
+      - 🇺🇲 【中转】USA/美国 A - 宁波电信
+      - 🇺🇲 【中转】USA/美国 A - 苏州电信
+      - 🇺🇲 【中转】USA/美国 A - 天津联通
+      - 🇺🇲 【中转】USA/美国 A - 河北联通
+      - 🇺🇲 【中转】USA/美国 A - 济南联通
+      - 🇺🇲 【中转】USA/美国 A - 郑州联通
+      - 🇺🇲 【中转】USA/美国 A - 重庆联通
       - 🇨🇳 【中转】TWN/台湾 A - 东莞电信
       - 🇨🇳 【中转】TWN/台湾 A - 天津电信
       - 🇨🇳 【中转】TWN/台湾 A - 宁波电信
@@ -579,6 +596,16 @@ proxy-groups:
       - 🇨🇳 【中转】TWN/台湾 A - 济南联通
       - 🇨🇳 【中转】TWN/台湾 A - 郑州联通
       - 🇨🇳 【中转】TWN/台湾 A - 重庆联通
+      - 🇨🇳 【中转】TWN/台湾 B - 东莞电信
+      - 🇨🇳 【中转】TWN/台湾 B - 天津电信
+      - 🇨🇳 【中转】TWN/台湾 B - 宁波电信
+      - 🇨🇳 【中转】TWN/台湾 B - 苏州电信
+      - 🇨🇳 【中转】TWN/台湾 B - 江苏移动
+      - 🇨🇳 【中转】TWN/台湾 B - 天津联通
+      - 🇨🇳 【中转】TWN/台湾 B - 河北联通
+      - 🇨🇳 【中转】TWN/台湾 B - 济南联通
+      - 🇨🇳 【中转】TWN/台湾 B - 郑州联通
+      - 🇨🇳 【中转】TWN/台湾 B - 重庆联通
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -612,6 +639,7 @@ rules:
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
  - DOMAIN,analytics.strava.com,🎯 全球直连
@@ -2539,7 +2567,6 @@ rules:
  - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
- - DOMAIN-SUFFIX,theplatform.com,🌍 国外媒体
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -2559,6 +2586,7 @@ rules:
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -2568,6 +2596,10 @@ rules:
  - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasialive.akamaized.net,🌍 国外媒体
+ - DOMAIN,hbogoprod-vod.akamaized.net,🌍 国外媒体
+ - DOMAIN,hbolb.onwardsmg.com,🌍 国外媒体
+ - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
  - DOMAIN,players.brightcove.net,🌍 国外媒体
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
@@ -2928,8 +2960,6 @@ rules:
  - DOMAIN-SUFFIX,discord.media,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
- - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.me,🚀 节点选择
@@ -3091,6 +3121,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
+ - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
  - IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
  - IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
