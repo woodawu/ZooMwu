@@ -1,0 +1,115 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇸🇬 *优先使用Tcping及真连接测试，若节点无法使用，请先更新订阅*, server: 1.1.1.1, port: 65535, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 1.1.1.1}}
+  - {name: "*严禁测速，为了保证所有人的宽带公平", server: 1.1.1.1, port: 65535, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: d37xr2wb5cxle7.cloudfront.net}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 80端口 - 1, server: 001.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 001.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 443端口 - 2, server: 002.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 002.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 80端口 - 1, server: 003.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 003.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 443端口 - 2, server: 004.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 004.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 80端口 - 1, server: 005.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 005.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 443端口 - 2, server: 006.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇨🇳 【直连】ICN/首尔 - 80端口 - 1, server: 007.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 007.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇨🇳 【直连】ICN/首尔 - 443端口 - 2, server: 008.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 008.AP.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 80端口 - 1, server: 009.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 009.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 80端口 - 2, server: 010.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 010.NA.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 1, server: 021.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 2, server: 022.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 1, server: 023.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 023.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 2, server: 024.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 024.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 1, server: 025.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 025.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 2, server: 026.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 026.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇨🇳 【直连】ICN/首尔 - 1, server: 027.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 027.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇨🇳 【直连】ICN/首尔 - 2, server: 028.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 028.AP.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 1, server: 029.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 029.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 2, server: 030.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 030.NA.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 3, server: 031.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 031.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 4, server: 032.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 032.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 3, server: 033.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 033.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 4, server: 034.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 034.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 3, server: 035.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 035.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 4, server: 036.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 036.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇨🇳 【直连】ICN/首尔 - 3, server: 037.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 037.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇨🇳 【直连】ICN/首尔 - 4, server: 038.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 038.AP.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 3, server: 039.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 039.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 4, server: 040.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 7729bb0f-ab21-4eed-a6e0-97d5448f449a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 040.NA.POP.BIGAIRPORT.NET}}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - 🇸🇬 *优先使用Tcping及真连接测试，若节点无法使用，请先更新订阅*
+      - "*严禁测速，为了保证所有人的宽带公平"
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇨🇳 【直连】ICN/首尔 - 80端口 - 1
+      - 🇨🇳 【直连】ICN/首尔 - 443端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇨🇳 【直连】ICN/首尔 - 1
+      - 🇨🇳 【直连】ICN/首尔 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 【直连】SJC/圣荷西 - 2
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇨🇳 【直连】ICN/首尔 - 3
+      - 🇨🇳 【直连】ICN/首尔 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 4
+rules:
+ - DOMAIN-SUFFIX,1password.com,DIRECT
+ - DOMAIN-SUFFIX,vultr.com,DIRECT
+ - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+ - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+ - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+ - DOMAIN-SUFFIX,baidu.com,DIRECT
+ - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+ - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+ - DOMAIN,mtalk.google.com,DIRECT
+ - DOMAIN,alt1-mtalk.google.com,DIRECT
+ - DOMAIN,alt2-mtalk.google.com,DIRECT
+ - DOMAIN,alt3-mtalk.google.com,DIRECT
+ - DOMAIN,alt4-mtalk.google.com,DIRECT
+ - DOMAIN,alt5-mtalk.google.com,DIRECT
+ - DOMAIN,alt6-mtalk.google.com,DIRECT
+ - DOMAIN,alt7-mtalk.google.com,DIRECT
+ - DOMAIN,alt8-mtalk.google.com,DIRECT
+ - DOMAIN,alt9-mtalk.google.com,DIRECT
+ - DOMAIN,captive.apple.com,DIRECT
+ - DOMAIN,time-ios.apple.com,DIRECT
+ - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+ - DOMAIN-SUFFIX,push.apple.com,DIRECT
+ - DOMAIN-KEYWORD,github,Proxies
+ - DOMAIN-SUFFIX,github.com,Proxies
+ - DOMAIN-SUFFIX,github.io,Proxies
+ - DOMAIN-SUFFIX,githubapp.com,Proxies
+ - DOMAIN-SUFFIX,githubassets.com,Proxies
+ - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+ - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+ - DOMAIN,ip.skk.moe,Proxies
+ - DOMAIN,ip.sb,Proxies
+ - DOMAIN-SUFFIX,googleapis.cn,Proxies
+ - DOMAIN-SUFFIX,maying.co,Proxies
+ - DOMAIN-SUFFIX,flowercloud.net,Proxies
+ - DOMAIN-SUFFIX,socloud.me,Proxies
+ - DOMAIN-SUFFIX,ytoo.asia,Proxies
+ - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+ - GEOIP,CN,DIRECT
+ - MATCH,Proxies
